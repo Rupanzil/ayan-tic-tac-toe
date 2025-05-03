@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #f5d2d2, #18a3ff); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    
+    
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .cell {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 12px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    color: maroon;
+    text-shadow: 1px 1px 2px #f700ff;
+    text-align: center;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+  }
+  #cell-0 {
+    border-left: none;
+    border-top: none;
+  }
+  #cell-1 {
+    border-top: none;
+  }
+  #cell-2 {
+    border-right: none;
+    border-top: none;
+  }
+  #cell-3 {
+    border-left: none;
+  }
+  #cell-5 {
+    border-right: none;
+  } 
+#cell-6 {
+        border-left: none;
+        border-bottom: none;
+    }
+#cell-7 {
+        border-bottom: none;
+    }
+#cell-8 {
+        border-right: none;
+        border-bottom: none;
+    }
+  
+
+.restart{
+    background-color: #001aff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .restart:hover {
+    background-color: #7700ff; /* Darker green */
+  }
+  
