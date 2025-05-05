@@ -6,7 +6,7 @@
   
   body {
     font-family: sans-serif;
-    background: linear-gradient(135deg, #f5d2d2, #18a3ff); 
+    background: linear-gradient(135deg, #f5d2d2, #1994e6); 
 
     display: flex;
     justify-content: center;
@@ -23,6 +23,15 @@
     color: #05331c;
     
     
+  }
+  .status{
+    font-size:50px;
+    font-weight: bold;
+    color: #05331c;
+    
+  }
+  .hide{
+    display: none;
   }
   
   .board {
